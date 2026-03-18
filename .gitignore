@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+myenv/
+
+# Data files
+*.csv
+*.xlsx
+*.parquet
+
+# Model files
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
