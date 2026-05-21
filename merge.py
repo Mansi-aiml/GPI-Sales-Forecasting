@@ -11,7 +11,7 @@ from config import DATE_COL
 
 def load_and_merge(path=None):
     """Read and merge multiple CSV files into a single DataFrame."""
-    path = path or os.environ.get("GPI_DATASET_PATH", "/home/tspl/Desktop/GPI dataset/*.csv")
+    path = path or os.environ.get("GPI_DATASET_PATH", "/Users/tspl/Downloads/GPI dataset/*.csv")
     if not path.endswith("*.csv"):
         path = os.path.join(path, "*.csv")
     files = sorted(glob.glob(path))
@@ -31,3 +31,4 @@ def load_and_merge(path=None):
 if __name__ == "__main__":
     df = load_and_merge()
     print("Completed. Use this DataFrame in the pipeline or eda.ipynb.")
+

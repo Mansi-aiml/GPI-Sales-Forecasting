@@ -8,6 +8,7 @@ import os
 TARGET_COL = "grand_total"
 DATE_COL = "sales_date_time"
 SKU_COL = "sku_id"
+TOWN_COL = "town_id"
 
 # Time-based train-test split
 TEST_DAYS = 30  # Last N days for test set

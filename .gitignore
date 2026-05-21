@@ -6,6 +6,8 @@ __pycache__/
 venv/
 .env/
 myenv/
+env/
+env_gpi/
 
 # Data files
 *.csv

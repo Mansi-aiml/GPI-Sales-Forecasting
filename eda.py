@@ -8,7 +8,6 @@ import numpy as np
 
 from config import TARGET_COL, DATE_COL, SKU_COL
 
-
 def run_eda(df):
     """Analyze dataset: shape, dtypes, missing, duplicates, numerical dist, outliers, SKU/time patterns."""
     print("\n" + "=" * 60)
